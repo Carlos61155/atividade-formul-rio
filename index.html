@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+            <h1>Formulário de Exemplo</h1>
+
+            <label for="Nome">Nome:</label><br>
+            <input required id="Nome" type="text" class="largura" placeholder="Digite seu nome"> <br><br>
+
+            <label for="E-mail:">E-mail:</label><br>
+            <input required id="E-mail:" type="email" class="largura" placeholder="Digie seu e-mail"> <br><br>
+
+            <label for="Senha">Senha:</label><br>
+            <input required id="Senha" type="password" class="largura" placeholder="Digite sua senha"> <br><br>
+
+            <label for="Idade">Idade:</label><br>
+            <input required id="Idade" type="text" class="largura" placeholder="Digite sua idade"> <br><br>
+
+            <label for="Data de Nacimento">Data de Nacimento:</label><br>
+            <input required id="Data de Nacimento" type="date" class="largura"> <br><br>
+
+            <label for="Telefone">Telefone:</label><br>
+            <input required id="Telefone" type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="(xx)xxxxx-xxxx" class="largura"> <br><br>
+
+            <label for="">Gênero:</label><br>
+            <select class="largura" id="genero">
+                <option value="">Selecione...</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select> <br><br>
+
+            <label>Você gosta de programar?</label><br>
+            <input type="radio" id="Sim" value="Sim" name="Escolha">
+            <label for="Sim">Sim</label><br>
+            <input type="radio" id="Não" value="Não" name="Escolha">
+            <label for="Não">Não</label><br><br>
+
+            <label>Gostaria de receber a newsletter?</label><br>
+            <input id="Sim" type="checkbox">
+            <label for="Sim">Sim</label><br><br>
+
+            <label for="">Faça o upload de um arquivo:</label><br>
+            <input type="file" class="file"><br><br>
+
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
